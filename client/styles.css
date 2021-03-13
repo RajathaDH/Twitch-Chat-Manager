@@ -7,4 +7,38 @@
 .container {
     width: 80%;
     margin: 0 auto;
+    height: 100vh;
+    background: #222;
+    overflow: hidden;
+}
+
+.messages {
+    background: #333;
+    margin: 20px;
+    padding: 20px;
+    padding-right: 10px;
+    border-radius: 20px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.messages::-webkit-scrollbar {
+    background: #333;
+    border-radius: 10px;
+}
+
+.messages::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
+
+.message {
+    background: purple;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.message p {
+    color: white;
 }
